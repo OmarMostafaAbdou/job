@@ -1,0 +1,11 @@
+.card {
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+
+.card:hover {
+    transform: translateY(-15px); 
+    transition-delay: 0.3s;
+}
